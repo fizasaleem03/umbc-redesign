@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UMBC IS Department</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background-color: #f9f9f9; }
+    header {
+      background-color: #000;
+      color: #fdb515;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header img {
+      height: 50px;
+      margin-right: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover { color: #fdb515; }
+    .hero {
+      background: #fdb515;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .featured-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 2rem auto;
+      gap: 1rem;
+    }
+    .featured-box {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      flex: 1 1 250px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: transform 0.2s;
+    }
+    .featured-box:hover { transform: translateY(-5px); }
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div style="display:flex; align-items:center;">
+      <img src="umbclogo.png" alt="UMBC Logo" />
+      <h2>UMBC IS Department</h2>
+    </div>
+    <nav>
+      <a href="informationsys.html">Home</a>
+      <a href="dept.html">IS Program</a>
+      <a href="contactus.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to the Information Systems Department</h1>
+    <p>Explore technology, business, and systems innovation at UMBC.</p>
+  </section>
+
+  <section class="featured-container">
+    <div class="featured-box">
+      <h3>Courses</h3>
+      <p>Learn about our core IS courses and electives.</p>
+    </div>
+    <div class="featured-box">
+      <h3>Events</h3>
+      <p>Stay updated on department workshops and seminars.</p>
+    </div>
+    <div class="featured-box">
+      <h3>Resources</h3>
+      <p>Find helpful resources for students and faculty.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 University of Maryland, Baltimore County | IS Department
+  </footer>
+
+</body>
+</html>
